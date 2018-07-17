@@ -1,0 +1,11 @@
+puts "Let's plan your grocery list out!Start by telling me which store you want to go to."
+store= gets.chomp
+puts "Okay what veggies would you like to get from #{store}?"
+veggies= gets.chomp
+puts "Good choices!Next lets choose which meats you want."
+meats= gets.chomp
+puts "Sounds hearty! All good choices so far."
+puts "Would you like any desserts?"
+answer= gets.chomp
+if answer == "yes"
+puts "Okay which desserts would you like?"
